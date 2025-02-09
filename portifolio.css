@@ -115,10 +115,18 @@ main {
   .icones a:hover {
     color: #ffcc00;
   }
+
+  .download-link {
+    text-decoration: none; /* Remove sublinhado */
+    color: inherit;        /* Herdar a cor do elemento filho */
+    display: inline-block; /* Garante que o link se comporte como um bloco inline */
+    width: inherit;
+  }
+  
   
 
   .left button {
-    width: 80%;
+    width: 100%;
     padding: 15px;
     font-size: 1.2rem;
     border: none;
