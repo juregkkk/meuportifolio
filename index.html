@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <link rel="stylesheet" href="portifolio.css">
     <link rel="stylesheet" href="experiencias.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -34,7 +36,7 @@
         </div>
         <div class="direita"> <img src="img\foto com fundo branco.jpeg" alt=""></div>
     </main>
-    <section class="sobre-mim" id="sobre">
+    <section class="sobre-mim" id="sobre" data-aos="fade-up">
         <div class="sobre-texto">
             <h2>Sobre Mim</h2>
             <p>Tenho 18 anos e sou um entusiasta da tecnologia, sempre em busca de aprendizado e desafios. Completei o ensino médio e, ao longo da minha jornada acadêmica, participei de diversas olimpíadas do conhecimento, como:</p>
@@ -48,10 +50,10 @@
             <p>Além do mundo da tecnologia, também fui atleta de luta olímpica, desenvolvendo disciplina, foco e resiliência. Embora ainda não tenha experiência profissional, minha dedicação ao aprendizado e minha participação em competições acadêmicas demonstram minha capacidade de resolver problemas e enfrentar desafios com determinação.</p>
         </div>
         <div class="sobre-imagem">
-            <img src="img/sobre-mim.jpeg" alt="João Pedro">
+            <img src="img\undraw_personal_information_re_vw8a.png" alt="João Pedro">
         </div>
     </section>
-    <section class="habilidades" id="habilidades">
+    <section class="habilidades" id="habilidades" data-aos="fade-up">
         <div class="habilidades-container">
           <h2>Habilidades</h2>
           <div class="skills-grid">
@@ -138,7 +140,7 @@
           </div>
         </div>
     </div>
-     <section class="projetos" id="projetos">
+     <section class="projetos" id="projetos" data-aos="fade-up">
         <div class="projetos-container">
             <h2>Projetos</h2>
             <div class="projetos-grid">
@@ -167,17 +169,23 @@
             </div>
         </div>
     </section>
-    <section class="contato" id="contato">
+    <section class="contato" id="contato" data-aos="fade-up">
         <div class="contato-container">
             <h2>Contato</h2>
             <p>Entre em contato comigo!</p>
             <ul class="contato-lista">
                 <li><i class="fa-solid fa-envelope"></i><strong>Email:</strong> barbosaamaraljoaopedro@gmail.com</li>
-                <li><i class="fa-solid fa-phone"></i><strong>Telefone:</strong> (11) 96633-3448</li>
+                <li><i class="fa-solid fa-phone"></i><strong>Telefone:</strong>+55 (11) 96633-3448</li>
                 <li> <i class="fa-brands fa-linkedin"></i><strong>LinkedIn:</strong> https://www.linkedin.com/in/joao-pedro-barbosa-amaral</li>
             </ul>
         </div>
     </section>
+    <script>
+        AOS.init({
+    duration: 1000, // Tempo da animação (1s)
+    once: true, // Animação acontece apenas uma vez
+});
+    </script>
     
 </body>
 
