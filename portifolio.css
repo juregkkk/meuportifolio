@@ -145,6 +145,7 @@ main {
 .direita {
     height: 100%;
     width: 50%;
+    text-align: right;
     display: grid;
     justify-content: center;
     align-items: center;
@@ -152,10 +153,10 @@ main {
 }
 
 .direita img {
-    width: 80%;
     width: 300px;
-    border-radius: 50%;
-    height: 300px;
+    left: 50px;
+    height: 500px;
+    display: inline-block;
     object-fit: cover;
     border: 5px solid #fff;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
